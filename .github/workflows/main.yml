@@ -43,7 +43,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: node-app:latest
+          tags: 19960628/node-app:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
