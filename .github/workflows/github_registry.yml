@@ -8,7 +8,7 @@ on:
   push:
     branches: [ main ]
     tags:
-      - "v*.*.*"
+      - ghcr.io/${{ github.repository_owner }}/node-app:latest
   pull_request:
     branches: [ main ]
 
